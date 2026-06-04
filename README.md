@@ -17,4 +17,6 @@ API REST développée avec Spring Boot permettant :
 
 ## Lancement
 
+```bash
 mvn spring-boot:run
+```
