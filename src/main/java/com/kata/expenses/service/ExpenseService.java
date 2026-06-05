@@ -23,10 +23,6 @@ public class ExpenseService {
         return expense;
     }
 
-    public List<Expense> getAllExpenses() {
-        return expenses;
-    }
-
     public BigDecimal getTotalExpenses() {
         return expenses.stream()
                 .map(Expense::getAmount)
